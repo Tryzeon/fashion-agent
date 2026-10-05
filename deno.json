@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@ai-sdk/google-vertex/edge": "npm:@ai-sdk/google-vertex@4.0.196/edge",
+    "@std/assert": "jsr:@std/assert@1.0.19",
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@2.114.0",
+    "ai": "npm:ai@6.0.275",
+    "zod": "npm:zod@4.5.4"
+  },
+  "tasks": {
+    "test": "deno test --allow-env --allow-sys agent/",
+    "check": "deno check agent/"
+  }
+}
